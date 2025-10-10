@@ -1,0 +1,6 @@
+com/codeup/minitiendariwi/exception/StockInsuficienteException.class
+com/codeup/minitiendariwi/service/TiendaServicio.class
+com/codeup/minitiendariwi/ui/TiendaVista.class
+com/codeup/minitiendariwi/MiniTiendaRiwi.class
+com/codeup/minitiendariwi/exception/ProductoYaExisteException.class
+com/codeup/minitiendariwi/domain/InventarioModelo.class

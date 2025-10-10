@@ -1,0 +1,6 @@
+/home/Coder/Vídeos/MiniTiendaRiwi/src/main/java/com/codeup/minitiendariwi/MiniTiendaRiwi.java
+/home/Coder/Vídeos/MiniTiendaRiwi/src/main/java/com/codeup/minitiendariwi/domain/InventarioModelo.java
+/home/Coder/Vídeos/MiniTiendaRiwi/src/main/java/com/codeup/minitiendariwi/exception/ProductoYaExisteException.java
+/home/Coder/Vídeos/MiniTiendaRiwi/src/main/java/com/codeup/minitiendariwi/exception/StockInsuficienteException.java
+/home/Coder/Vídeos/MiniTiendaRiwi/src/main/java/com/codeup/minitiendariwi/service/TiendaServicio.java
+/home/Coder/Vídeos/MiniTiendaRiwi/src/main/java/com/codeup/minitiendariwi/ui/TiendaVista.java
