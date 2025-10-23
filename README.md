@@ -17,27 +17,30 @@ El proyecto se organiza en las siguientes carpetas y archivos:
 
 MiniTiendaRiwi/
 ├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ ├── com/
-│ │ │ │ ├── codeup/
-│ │ │ │ │ ├── minitiendariwi/
-│ │ │ │ │ │ ├── domain/
-│ │ │ │ │ │ │ ├── Alimento.java
-│ │ │ │ │ │ │ ├── Electrodomestico.java
-│ │ │ │ │ │ │ ├── Producto.java
-│ │ │ │ │ │ │ └── InventarioModelo.java
-│ │ │ │ │ │ ├── exception/
-│ │ │ │ │ │ │ ├── ProductoYaExisteException.java
-│ │ │ │ │ │ │ └── StockInsuficienteException.java
-│ │ │ │ │ │ ├── service/
-│ │ │ │ │ │ │ └── TiendaServicio.java
-│ │ │ │ │ │ ├── ui/
-│ │ │ │ │ │ │ └── TiendaVista.java
-│ │ │ │ │ │ └── MiniTiendaRiwi.java
-│ │ │ │ └── pom.xml
-│ └── target/
-└── README.md
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com/
+│   │   │   │   ├── codeup/
+│   │   │   │   │   ├── minitiendariwi/
+│   │   │   │   │   │   ├── domain/                          # Contiene las clases del modelo
+│   │   │   │   │   │   │   ├── Alimento.java
+│   │   │   │   │   │   │   ├── Electrodomestico.java
+│   │   │   │   │   │   │   ├── Producto.java
+│   │   │   │   │   │   │   └── InventarioModelo.java          # Lógica de negocio e inventario
+│   │   │   │   │   │   ├── exception/                         # Excepciones personalizadas
+│   │   │   │   │   │   │   ├── ProductoYaExisteException.java
+│   │   │   │   │   │   │   └── StockInsuficienteException.java
+│   │   │   │   │   │   ├── service/                           # Lógica del servicio
+│   │   │   │   │   │   │   └── TiendaServicio.java            # Métodos de control de tienda (agregar, comprar, etc.)
+│   │   │   │   │   │   ├── ui/                                # Interfaz de usuario (JOptionPane)
+│   │   │   │   │   │   │   └── TiendaVista.java               # Muestra los diálogos de interacción con el usuario
+│   │   │   │   │   │   ├── MiniTiendaRiwi.java                # Clase principal que corre el programa
+│   │   │   │   │   │   └── pom.xml                           # Archivo Maven de configuración
+│   │   └── test/                                              # Si tienes pruebas, se podrían agregar aquí
+│   └── target/                                                 # Archivos compilados (serán generados automáticamente)
+├── README.md                                                   # Este archivo, describiendo tu proyecto
+└── .gitignore                                                   # Ignora archivos que no deberían subirse a Git (por ejemplo, target/)
+
 
 
 ### **Descripción de las carpetas:**
